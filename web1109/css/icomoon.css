@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../webfonts/icomoon.eot');
+  src:  url('../webfonts/fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../webfonts/icomoon.ttf') format('truetype'),
+    url('../webfonts/icomoon.woff') format('woff'),
+    url('../webfonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-basket:before {
+  content: "\e90f";
+}
+.icon-icon-user:before {
+  content: "\e910";
+}
+.icon-arrow-link:before {
+  content: "\e906";
+/*  color: #ca797d;*/
+}
+.icon-icon-line-b .path1:before {
+  content: "\e900";
+  color: rgb(68, 68, 68);
+}
+.icon-icon-line-b .path2:before {
+  content: "\e901";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-line-b .path3:before {
+  content: "\e902";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-line-b .path4:before {
+  content: "\e903";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-line-b .path5:before {
+  content: "\e904";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-line:before {
+  content: "\e905";
+/*  color: #b6968e;*/
+}
+.icon-icon-fb-b .path1:before {
+  content: "\e907";
+  color: rgb(68, 68, 68);
+}
+.icon-icon-fb-b .path2:before {
+  content: "\e908";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-fb:before {
+  content: "\e909";
+/*  color: #b6968e;*/
+}
+.icon-icon-insta-b .path1:before {
+  content: "\e90a";
+  color: rgb(68, 68, 68);
+}
+.icon-icon-insta-b .path2:before {
+  content: "\e90b";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-insta-b .path3:before {
+  content: "\e90c";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-insta-b .path4:before {
+  content: "\e90d";
+  margin-left: -1.5em;
+  color: rgb(255, 255, 255);
+}
+.icon-icon-insta:before {
+  content: "\e90e";
+/*  color: #b6968e;*/
+}
+.icon-go-top:before {
+  content: "\ea50";
+}

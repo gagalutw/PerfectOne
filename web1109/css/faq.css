@@ -1,0 +1,195 @@
+/*FAQ 隱私權 店舖一覽 */
+
+
+
+
+.accordion-section .panel-default>.panel-heading {
+    border: 0;
+    padding: 0;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'icomoon';
+    font-style: normal;
+    font-size: 1rem;
+    content: "\ea50";
+    color: #666;
+    float: right;
+    margin-top: 3px;
+    line-height: 1.5;
+    transition-duration: 0.3s;
+
+}
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    margin-top: -5px;
+    transform: rotate(180deg);
+}
+
+.panel-default {
+    background: #f4f4f4;
+}
+
+.panel-title {
+    margin: 0;
+}
+
+
+.panel-body {
+    background: #FFF;
+
+}
+
+.panel-body p {
+    display: table-cell;
+
+}
+
+.QA-content h5 {
+    margin-bottom: 30px;
+}
+
+.QA-content h5::after {
+    height: 10px;
+    width: 100%;
+    display: block;
+    content: " ";
+    border-bottom: 2px solid #ccc;
+}
+
+
+
+.Q-title::before {
+    content: "Q. ";
+    color: #ca797d;
+
+}
+
+.QA-content h5,
+.qa-a,
+.font-bold {
+    font-weight: 400;
+}
+
+
+.howtouse-iframe {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 1650px;
+}
+
+
+
+.res-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border: 0;
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
+
+}
+
+
+
+
+/*privacy 隱私權*/
+
+
+.privacy-content {
+    text-align: justify;
+    line-height: 1.7;
+}
+
+
+.privacy-content dd {
+    display: table;
+}
+
+.privacy-content dd span {
+    display: table-cell;
+}
+
+
+.privacy-content dd p {
+    margin: 0;
+}
+
+
+
+
+/*店舖一覽*/
+
+
+
+
+
+.store-content table {
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+
+.store-content table thead {
+    background: #f4f4f4;
+}
+
+.store-content table thead th,
+.store-content table td {
+    font-weight: 300;
+
+}
+
+.store-content table thead th {
+    padding: 0 0 0 5px;
+    border: 0;
+}
+
+
+.store-content table tr, .store-content table tbody tr {
+    border: 1px solid #ccc;
+
+}
+
+
+
+
+.store-content table td {
+
+    padding: 5px;
+
+
+}
+
+.store-content i {
+    padding-right: 10px;
+}
+
+.store-content table, .store-content table td, .store>.card  {
+       border:none; 
+}
+
+
+
+.time {
+    display: table;
+}
+
+.time>span {
+    display: table-cell;
+}
+
+.only-text {
+    border-bottom: 2px solid #ca797d;
+}

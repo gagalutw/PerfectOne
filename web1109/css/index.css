@@ -1,0 +1,299 @@
+/*SWIPER START*/
+
+.swiper-container {
+
+    position: relative;
+}
+
+.swiper-slide {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-product .swiper-slide {
+    width: 250px;
+}
+
+.swiper-control {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-button-next {
+    background-image: url(../images/arrow-R.svg);
+}
+
+.swiper-button-prev {
+    background-image: url(../images/arrow-L.svg);
+}
+
+.swiper-pagination-bullet {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #666;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: static;
+    width: 7px;
+    height: 13px;
+    margin: 0 14px;
+    background-size: contain;
+}
+
+.swiper-product {
+    position: relative;
+}
+
+.product-btn-next {
+    background-image: url(../images/arrow-c-R.png);
+}
+
+.product-btn-prev {
+    background-image: url(../images/arrow-c-L.png);
+}
+
+.product-btn-prev,
+.product-btn-next {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+/*SWIPER END*/
+
+/*SLICK*/
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    padding: 0 0 0 10px;
+    transition: all ease-in-out .3s;
+    /* opacity: 0.5; */
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+
+.slick-active,
+.slick-current,
+.slick-slide:hover,
+.slick-slide:focus {
+    opacity: 1;
+}
+
+
+.slick-prev,
+.slick-next {
+    z-index: 9;
+}
+
+.slick-next,
+.slick-next:before {
+    right: -5px;
+}
+
+.slick-prev,
+.slick-prev:before {
+    left: -5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    opacity: 0.7;
+    z-index: 999;
+}
+
+.slick-next:before {
+    background-image: url(../images/arrow-c-R.png);
+}
+
+.slick-prev:before {
+    background-image: url(../images/arrow-c-L.png);
+}
+
+
+.index-product .slick-slide {
+    margin: 0px 20px;
+    width: 220px;
+}
+
+
+/*SLICK END*/
+
+.index-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-slide {
+    text-align: center;
+    transition: all ease-in-out .3s;
+}
+
+.product-slide:hover {
+    color: #b6968e;
+}
+
+.product-slide img {
+    display: block;
+    width: 170px;
+    height: auto;
+    margin: 20px auto 10px;
+}
+
+.product-text {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+
+.index-media .slick-slide {
+    margin: 0px 22px;
+    width: 180px;
+}
+
+
+.media-slide img {
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+.product-slide .product-text p {
+    position: relative;
+}
+
+.product-slide .product-text p:before {
+    position: absolute;
+    left: -15px;
+    content: "";
+    width: 3px;
+    height: 100%;
+}
+
+.p-01 p::before {
+    background: #b6968e;
+}
+
+.p-02 p::before {
+    background: #7395a6;
+}
+
+.p-03 p::before {
+    background: #8a6c5d;
+}
+
+.p-04 p::before {
+    background: #946a9c;
+}
+
+
+
+
+
+.more {
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+}
+
+.product-text p:after,
+.more:after {
+
+    font-family: "icomoon";
+    content: "\e906";
+    padding-left: 10px;
+    font-size: 0.9rem;
+
+}
+
+.index-btn {
+    max-width: 500px;
+    opacity: 1;
+    transition: all ease-in-out .3s;
+}
+
+
+.index-btn img {
+    width: 100%;
+    height: auto;
+}
+
+.index-btn:hover,
+.product-slide:hover {
+
+    transform: scale(1.02);
+    opacity: 0.6;
+}
+
+.insta-square {
+    width: 300px;
+}
+
+.insta-rectangle {
+    width: 535px;
+}
+
+.insta-square,
+.insta-rectangle {
+    text-align: center;
+}
+
+.insta-square img,
+.insta-rectangle img {
+    width: 100%;
+    height: auto;
+}
+
+
+.video-wrap {
+    padding: 0 0 0 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .video-wrap {
+        padding: 0 0 0 0;
+    }
+}

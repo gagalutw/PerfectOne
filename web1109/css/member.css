@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC';
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif, Arial, "微軟正黑體", "Microsoft JhengHei";
+}
+
+.active{
+    color: #ca797d;
+}
+
+
+.login-content{
+    max-width: 720px;
+    margin: 0 auto;
+    color:666;
+}
+
+
+.login-content .form-control, .login-btn .btn{
+    padding: 0.75rem;
+
+}
+
+.login-btn .btn{
+    color:#fff;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.btn.btn-block::hover {
+
+    background: #b6968e;
+    color:cornflowerblue;
+}
+
+
+
+.other-btn .btn{
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+.other-btn .btn:focus, .other-btn .btn:hover {
+    text-decoration: none;
+    color: #ca797d;
+}
+
+
+
+.reg-content{
+height: 500px;
+}
+
+.m-btn a,.m-btn-n a {
+    color: #fff !important;
+    display: block;
+    cursor: pointer;
+}
+
+
+.m-btn:hover, .m-btn-n:hover{
+opacity: 0.5;
+}
+
+
+.m-btn{
+    background: #ca797d;
+}
+
+.m-btn, .m-btn-n {
+    margin: 0 auto;
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+}
+
+.m-btn-n {
+    background: #ccc;
+}
+
+
+.m-btnadd{
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.member-btns-wrap, .step-wrap{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.member-btns-wrap{
+    justify-content: space-between;
+    flex-direction:row-reverse;
+}
+
+.step-wrap{
+    justify-content: center;   
+}
+
+.stepnum {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.5;
+    display: block;
+    margin: 0 0 5px 0;
+    background: #ddd;
+    transition-duration: 0.3s;
+}
+
+
+
+.step-icon {
+	position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+
+.step-icon:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-left-color: #ddd;
+	border-width: 10px;
+    margin-top: -10px;
+    transition-duration: 0.3s;
+}
+
+
+.step-icon p{
+    margin: 0;
+    width: 100px;
+    font-size: 0.9rem;
+    line-height: 1;
+}
+
+
+a.stepac:active > div > span, a.stepac:hover > div > span {
+    
+    background: #b6968e;
+}
+
+a.stepac:active .step-icon, a.stepac:hover .step-icon{
+    border: 1px solid #b6968e;
+}
+
+
+a.stepac:active .step-icon:before, a.stepac:hover .step-icon:before {
+  
+    border-left-color: #b6968e;
+}
+
+
+div#mycontents_area div.mycondition_area .btn {
+margin-top: 0;
+    margin-right: 20px;
+}
+
+h2.title {
+    font-family: 'Noto Sans TC';
+    color: #ca797d;
+    background-color: #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/**  delivery_addr.php **/
+
+
+.deli-addr{
+    padding: 30px;
+}
+
+@media screen and (max-width: 468px) {
+    .deli-addr{
+        padding: 10px;
+    }
+    }
+/**
+.addr-table tr{
+   margin: 10px 0;
+ }
+ 
+
+.addr-table th{
+   font-weight: 500;
+}
+
+.addr-table td{
+    padding: 10px;
+}
+.addr-table td .box120,
+.addr-table td .box60,
+
+.addr-table td .box300{
+    border: 1px solid #ced4da;
+    padding: 5px;
+    width: 100%;
+}
+
+
+.addr-table .zipimg, .addr-table .top{
+    margin-bottom: 0;
+}
+
+
+.s-tip{
+
+    padding-left:10px;
+    font-size: 0.9rem;
+}
+
+
+.btn_area{
+    padding: 10px 0;
+    text-align:left;
+}
+
+@media screen and (max-width: 468px) {
+.addr-table tbody td{
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    
+}**/
+

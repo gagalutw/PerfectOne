@@ -1,0 +1,233 @@
+
+/*nav*/
+
+.header-menu-1, .header-menu-2 {
+
+    position: inherit;
+    
+    }
+
+
+.header-menu-1, .header-menu-2{
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-menu-1{
+    top: 0;
+    background-color: #fff;
+
+}
+
+.header-menu-2{
+    top: 70px;
+}
+
+.menu-sp {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-right {
+    margin: 10px 0;
+}
+
+.menu-r-link {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.menu-r-link p {
+    font-size: 0.8rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.nav-btn:not(:last-child)::after {
+    content: "｜";
+}
+
+.menu-2 {
+    display: inline-block;
+}
+
+.menu-2:hover,
+.menu-r-link a:hover {
+    color: #b6968e;
+    transition: all ease-in-out .3s;
+}
+
+.nav-main {
+    background: #f1f1f1;
+}
+
+
+.menu-icon{
+    font-size: 2rem;
+}
+
+/*nav hamburger*/
+
+.menu-section{
+    transition-duration: 0.3s;
+}
+
+
+.menu-section.on {
+    z-index: 999;
+    width: 100%;
+    display: block;
+    background-color: #FFF;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.menu-section.on::after{
+    content: "";
+    background: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: 50;
+}
+
+
+.menu-hamburger {
+    width: 25px;
+    cursor: pointer;
+}
+
+
+
+.menu-hamburger.on .one {
+    transform: rotate(45deg) translate(7px, 4px);
+}
+
+.menu-hamburger.on .two {
+    opacity: 0;
+}
+
+.menu-hamburger.on .three {
+    transform: rotate(-45deg) translate(5px, -3px);
+
+}
+
+.one,
+.two,
+.three {
+    width: 100%;
+    height: 2px;
+    background: #8a8a8a;
+    margin: 5px auto;
+    backface-visibility: hidden;
+    transition-duration: 0.3s;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+}
+
+nav ul.hidden {
+    display: none;
+}
+
+/*20190422*/
+nav ul li{
+    border-bottom: 1px solid #ccc;
+}
+
+
+nav ul a {
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    line-height: 3.8rem;
+    width: 100%;
+    display: block;
+}
+
+.hamburger-icon div {
+    display: inline-block;
+    margin: 0.7rem 10px;
+
+}
+
+.hamburger-icon a {
+    width: 35px;
+    height: 35px;
+    border: none;
+    line-height: 4rem;
+}
+
+.hamburger-icon :nth-child(1) a {
+    background: url(../images/icon-fb-b.svg) no-repeat center;
+    background-size: cover;
+}
+
+.hamburger-icon :nth-child(1) a:hover {
+    background: url(../images/icon-fb-h.svg) no-repeat center;
+    background-size: cover;
+}
+
+.hamburger-icon :nth-child(2) a {
+    background: url(../images/icon-insta-b.svg) no-repeat center;
+    background-size: cover;
+}
+
+.hamburger-icon :nth-child(2) a:hover {
+    background: url(../images/icon-insta-h.svg) no-repeat center;
+    background-size: cover;
+}
+
+.hamburger-icon :nth-child(3) a {
+    background: url(../images/icon-line-b.svg) no-repeat center;
+    background-size: cover;
+}
+
+.hamburger-icon :nth-child(3) a:hover {
+    background: url(../images/icon-line-h.svg) no-repeat center;
+    background-size: cover;
+}
+
+nav ul a:hover {
+    color: #b6968e;
+}
+/*nav hamburger END*/
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header-menu-1{
+        position: fixed;      
+        }
+
+.menu-brand select{
+   display: none;
+}
+
+.menu-section select{
+margin: 0.9rem auto;border-radius: 0.5rem;}
+}
+
+
+
+/*190422*/
+
+.menu-brand select{border-radius: 0.5rem;margin-left: 20px;}

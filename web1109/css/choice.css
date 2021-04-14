@@ -1,0 +1,298 @@
+/* NAV */
+
+/* .header-menu-1, .header-menu-2 {
+    position: absolute;   
+    } 11/2 edit*/
+
+
+
+    h3 {
+        font-weight: 200;
+
+    }
+
+
+.choice-tabs {
+    border: none;
+}
+
+
+.nav-tabs .choice-link {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+
+
+.choice-tabs .nav-item.show .choice-link,
+.choice-tabs .choice-link.active {
+
+    border-color: #ca797d;
+    color: #ca797d;
+}
+
+
+
+
+
+.choice-slide {
+    width: 45%;
+    /* border: 1px solid cornflowerblue; */
+}
+
+
+
+.skin-wrap {
+    border: 1px solid #ccc;
+    width: 325px;
+    margin: 40px auto;
+}
+
+
+.choice-skin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.choice-text {
+    border: 1px solid #b6968e;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.choice-slide img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.c-title {
+    border-bottom: 2px solid #b6968e;
+    padding: 7px 15px;
+    font-weight: 400;
+}
+
+
+.c-text {
+    font-size: 0.875rem;
+    line-height: 1.8;
+
+}
+
+.c-tip {
+    margin: 0;
+}
+
+
+.note span {
+    padding: 0 10px;
+}
+
+
+.choice-type {
+    /* border: 1px solid cornflowerblue; */
+    padding: 0;
+}
+
+.star-point {
+    margin: 0 auto;
+}
+
+.note span, .stars span{font-size: 0.9rem;
+}
+
+.stars span {
+    display: inline-block;}
+
+.type {
+    width: 60px;
+    text-align: left;
+}
+
+.choice-type img {
+    width: 200px;
+    height: auto;
+}
+
+.t-title {
+    margin: 0;
+}
+
+
+.type-wrap {}
+
+.water,
+.whitening,
+.antiaging,
+.oilprotect,
+.moisture,
+.light {
+    display: none;
+    transition-duration: 0.3s;
+}
+
+.check {
+    display: inline-block;
+    padding: 10px;
+}
+
+.check input[type=checkbox],
+.check input[type=radio] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 2px;
+    right: 5px;
+}
+
+
+
+.t-title, .c-title, .check {
+    font-weight: 400;
+}
+
+.dot{
+    display: none;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dot::before {
+    content: "................................................................................................................";
+    color: #e5e5e5;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+
+
+}
+
+
+/*SLICK*/
+
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+    transition: all ease-in-out .3s;
+    opacity: 0.5;
+}
+
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-slide:hover {
+    opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 9;
+}
+
+.slick-next,
+.slick-next:before {
+    right: -5px;
+}
+
+.slick-prev,
+.slick-prev:before {
+    left: -5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    opacity: 0.7;
+    z-index: 999;
+}
+
+.slick-next:before {
+    background-image: url(../images/arrow-c-R.png);
+}
+
+.slick-prev:before {
+    background-image: url(../images/arrow-c-L.png);
+}
+
+
+.choice-product .slick-slide {
+    width: 325px;
+}
+
+/*SLICK END*/
+
+
+
+@media screen and (max-width: 992px) {
+.dot{
+    display: block;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+    .choice-s-text .gobuy-btn,
+    .choice-type .gobuy-btn {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 468px) {
+
+    .choice-type img {
+        width: 160px;
+    }
+
+    .stars span {
+        font-size: 0.75rem;
+    }
+
+    .choice-type {
+        width: 170px;
+    }
+
+    .type {
+        width: 50px;
+    }
+
+    .check {
+        padding: 5px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 350px) {
+
+
+    .skin-wrap {
+
+        width: 85%;
+
+    }
+}

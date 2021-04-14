@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>index</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/shortcodes.css">
+  <link rel="stylesheet" href="css/member.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+ 
+  <div class="main-wrap">
+    <div class="container">
+      <section class="m-tb40">
+       
+     
+
+          <div id="windowcolumn">
+            <div id="window_area">
+                <div class="deli-addr bor-c text-left">
+              <h3 class="text-coco">新增‧變更送貨地址</h3>
+              <p>請填寫以下內容。「※」為必填欄位。<br>
+                填寫後請點擊「添加」。</p>
+
+                <form name="form1" id="form1" method="post" action="?">
+                  <input type="hidden" name="transactionid" value="293f45a84a692da3f1f3b95f9617968897415b61">
+                  <input type="hidden" name="mode" value="edit">
+                  <input type="hidden" name="other_deliv_id" value="">
+                  <input type="hidden" name="ParentPage" value="/shopping/deliv.php">
+
+                  <table class="addr-table">
+                    <tbody>
+                      <tr>
+                        <th>
+                          姓名*
+                        </th>
+                        <td>
+                          <input type="text" name="name01" value="" maxlength="100" style=";" class="box120"
+                            placeholder="姓">
+                        </td>
+                        <td>
+                          <input type="text" name="name02" value="" maxlength="100" style=";" class="box120"
+                            placeholder="名">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          郵遞區號*
+                        </th>
+                        <td>
+                          <input type="text" name="zipcode" id="zipcode" value="" maxlength="10" style="; ime-mode: disabled;"
+                            class="box60">
+                        </td>
+                        <td>
+                          <p class="zipimg">
+                            <a class="bt01" href="javascript:return false;" onclick="showZipSearchDialog();" target="_blank"
+                              style="color:blue;">郵遞區號檢索</a>
+                          </p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                          地址*
+                        </th>
+                        <td colspan="2">
+                          <p> <select name="pref" id="pref" style="">
+                            <option value="" selected="selected">請選擇城市</option>
+                            <option label="台北市" value="0">台北市</option>
+                            <option label="基隆市" value="1">基隆市</option>
+                            <option label="新北市" value="2">新北市</option>
+                            <option label="連江縣" value="3">連江縣</option>
+                            <option label="宜蘭縣" value="4">宜蘭縣</option>
+                            <option label="釣魚台" value="5">釣魚台</option>
+                            <option label="新竹市" value="6">新竹市</option>
+                            <option label="新竹縣" value="7">新竹縣</option>
+                            <option label="桃園縣" value="8">桃園縣</option>
+                            <option label="苗栗縣" value="9">苗栗縣</option>
+                            <option label="台中市" value="10">台中市</option>
+                            <option label="彰化縣" value="11">彰化縣</option>
+                            <option label="南投縣" value="12">南投縣</option>
+                            <option label="嘉義市" value="13">嘉義市</option>
+                            <option label="嘉義縣" value="14">嘉義縣</option>
+                            <option label="雲林縣" value="15">雲林縣</option>
+                            <option label="台南市" value="16">台南市</option>
+                            <option label="高雄市" value="17">高雄市</option>
+                            <option label="南海島" value="18">南海島</option>
+                            <option label="澎湖縣" value="19">澎湖縣</option>
+                            <option label="金門縣" value="20">金門縣</option>
+                            <option label="屏東縣" value="21">屏東縣</option>
+                            <option label="台東縣" value="22">台東縣</option>
+                            <option label="花蓮縣" value="23">花蓮縣</option>
+
+                          </select></p>
+                         
+                          <input type="text" id="addr01" name="addr01" value="" class="box300" style=";"><span class="s-tip">*請填完整的地址</span>
+                        </td>
+
+                      </tr>
+                      <tr>
+                          <th>
+                            手機*
+                          </th>
+                          <td colspan="2">
+                            <input type="text" name="tel01" value="" maxlength="10" style="; ime-mode: disabled;" class="box300 top">
+                          </td>
+  
+                        </tr>
+                        <tr>
+                            <th>市話</th>
+                            <td colspan="2">
+                                <input type="text" name="tel02" value="" maxlength="10" style="; ime-mode: disabled;" class="box300">
+                            </td>
+    
+                          </tr>
+                    </tbody>
+                  </table>
+                  <div class="btn_area">
+                    <div class="m-t30">
+                      <div class="m-btn m-btnadd m-a20 text-center" name="register" id="register"> <a href="#">增加</a></div>
+                    </div>
+            
+                  </div>
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+      
+      
+      </section>
+    </div>
+  </div>
+  
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- scrollTop -->
+
+  <script src="js/jquery-backToTop.min.js"></script>
+  <script>
+    var $button = $.backToTop({
+      theme: 'fawesome'
+    });
+  </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,284 @@
+h3 {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+.top-text,
+.skin-text {
+
+    align-self: center;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.skin-text p {
+    text-align: justify;
+    ;
+}
+
+.sixtitle{
+    position: relative;
+    padding: 0 0 20px 0;
+}
+
+.top-trunk {
+    width: 100%;
+    height: 250px;
+    background: url(../images/de_trunk01.png) no-repeat scroll center center / contain;
+
+}
+
+.skin-img {
+    width: 100%;
+    height: 300px;
+    background: url(../images/delivery_01.jpg) no-repeat scroll center center / contain;
+
+}
+
+
+.deli-img {
+    width: 100%;
+    height: 250px;
+    background: url(../images/delivery_02pc.png) no-repeat scroll center center / contain;
+
+}
+
+
+.good-block {
+    margin: 0 auto 20px auto;
+    text-align: justify;
+    max-width: 450px;
+}
+
+
+/*六大好處icon*/
+
+.number{
+
+}
+
+.good-title {
+    position: relative;
+    padding: 0 0 0 80px;
+    font-weight: 400;
+    font-size: 1.1rem;
+    align-self: center;
+}
+
+
+/* .good-title::after {
+    position: absolute;
+    content: " ";
+    right: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 50px;
+} */
+
+.g-icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+.good-content :nth-child(1).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_01_01.png) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(2).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_02_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(3).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_03_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(4).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_04_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(5).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_05_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(6).good-area :nth-child(1).number>.g-icon {
+   
+    background: url(../images/de_06_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+
+
+
+
+/* 
+
+.good-content :nth-child(1).good-area :nth-child(1).number>.good-title::after {
+   
+    background: url(../images/de_01_01.png) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(2).good-area :nth-child(1).number>.good-title::after {
+
+    background: url(../images/de_02_01.png) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(3).good-area :nth-child(1).number>.good-title::after {
+   
+    background: url(../images/de_03_01.png) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(4).good-area :nth-child(1).number>.good-title::after {
+
+    background: url(../images/de_04_01.png) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(5).good-area :nth-child(1).number>.good-title::after {
+
+    background: url(../images/de_05_01.png) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(6).good-area :nth-child(1).number>.good-title::after {
+  
+    background: url(../images/de_06_01.png) no-repeat scroll 0 0 / contain;
+} */
+
+
+/*六大好處數字*/
+
+.good-content>.good-area :nth-child(1).number {
+    /* border: 3px solid cornflowerblue; */
+    width: 100%;
+    height: 80px;
+}
+
+
+.good-content :nth-child(1).good-area :nth-child(1).number {
+
+    background: url(../images/de_01.svg) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(2).good-area :nth-child(1).number {
+    background: url(../images/de_02.svg) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(3).good-area :nth-child(1).number {
+    background: url(../images/de_03.svg) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(4).good-area :nth-child(1).number {
+    background: url(../images/de_04.svg) no-repeat scroll 0 0 / contain;
+}
+
+
+.good-content :nth-child(5).good-area :nth-child(1).number {
+    background: url(../images/de_05.svg) no-repeat scroll 0 0 / contain;
+}
+
+.good-content :nth-child(6).good-area :nth-child(1).number {
+    background: url(../images/de_06.svg) no-repeat scroll 0 0 / contain;
+}
+
+
+
+
+
+
+/* 
+.good-content .good-area .good-block:nth-child(1){
+    background: url(../images/de_01.svg) no-repeat scroll 0 0 / contain;
+}CornflowerBlue
+ */
+
+ @media screen and (max-width: 992px) {
+.emp{
+    display: none;
+}
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .hidem {
+        display: block;
+    }
+
+    .hidep {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .top-trunk {
+
+        height: 180px;
+
+    }
+
+
+    .deli-img {
+        height: 250px;
+        background: url(../images/delivery_02.png) no-repeat scroll center center / contain;
+
+
+
+    }
+
+}
+
+    @media screen and (max-width: 767px) {
+
+
+        .hidem {
+            display: none;
+        }
+
+        .hidep {
+            display: block;
+        }
+
+
+    }
+
+    @media screen and (max-width: 380px) {
+        .good-title {
+ padding: 0 0 0 60px;
+line-height: 1.5;
+ font-size: 1rem;
+        }
+
+        .g-icon{
+            width: 40px;
+            height: 40px;
+         
+        margin-bottom:-20px; 
+        }
+        
+
+        .good-content>.good-area :nth-child(1).number {
+
+            height: 60px;
+        
+    }
+
+
+
+

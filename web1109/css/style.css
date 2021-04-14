@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+* {
+    font-family: 'Noto Sans TC';
+    /* transition-duration: 0.3s; */
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif, Arial, "微軟正黑體", "Microsoft JhengHei";
+    position: relative;
+    font-weight: 300;
+    overflow-x: hidden;
+    color: #666;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a {
+    color: #666;
+}
+
+
+a:hover {
+    color: #b6968e;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+.bor-c {
+    border: 1px solid #ccc;
+}
+
+.bor-tc {
+    border-top: 1px solid #ccc;
+}
+
+.bor-bc {
+    border-bottom: 1px solid #ccc;
+}
+
+.text-pink {
+    color: #ca797d !important;
+}
+
+
+.text-blue {
+    color: #7b96d3;
+}
+
+
+.text-coco {
+    color: #b6968e;
+}
+
+.text-fff {
+    color: #FFF;
+}
+
+
+.text-og{
+    color: #f2b59e;
+} 
+
+
+.font-5{
+    font-weight: 500;
+}
+
+.bg-pink {
+    background-color: #ca797d !important;
+}
+
+
+.bg-bw{
+    background-color: #b6968e;
+}
+.nav-bread {
+    background: none;
+}
+
+
+/*首頁廣告視窗*/
+
+.ad-wrap{
+    position: fixed;
+    z-index: 10;
+    top: 15%;
+    right: 5%;
+    width: 190px;
+    height: 230px;
+   background: #fff;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+.ad {
+    position: relative;
+}
+
+
+.ad img:hover, .buynow:hover {
+    opacity: 0.7;
+}
+
+.buynow{
+    margin: 0 auto;
+    width: 90px;
+ 
+    line-height: 32px;
+    background-color: #ea4951;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-size: 0.9rem;
+    left: 27%;
+    bottom: 7%;
+}
+
+.buynow a{
+    color: #fff;
+}
+
+.close-x{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 20px;
+    height:20px ;
+    z-index: 2;
+}
+
+.close-x:hover::before, .close-x:hover::after {
+    background: #1ebcc5;
+  }
+  .close-x::before, .close-x::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    top: 10px;
+    right: 0;
+    border-radius: 5px;
+    height: 3px;
+    background: #ca797d;
+  }
+
+
+  .close-x::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .close-x::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+
+
+/*首頁廣告視窗*/
+
+.main-title {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.main-title>span {
+    display: block;
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+
+
+/*tabs*/
+
+.detail-tabs,
+.main-tabs {
+    border: none;
+}
+
+.detail-link,
+.main-link {
+    display: block;
+    padding: 0.8rem 3.8rem;
+}
+
+.detail-tabs .nav-item.show .detail-link,
+.detail-tabs .detail-link.active,
+.main-tabs .nav-item.show .main-link,
+.main-tabs .main-link.active {
+    color: #FFF;
+    background-color: #ca797d;
+    border-color: #ca797d;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #ccc;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    margin-right: 10px;
+    border-bottom: none;
+}
+
+/*tabs*/
+
+/*產品詳細 產品一覽共用*/
+
+
+
+/*.alsobuy-block, */
+.item-block {
+    display: flex;
+    vertical-align: middle;
+}
+
+.item-text {
+    margin-top: 30px;
+}
+
+.item-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.item-price span {
+    display: block;
+    font-size: 0.8rem;
+}
+
+
+.gobuy-btn {
+    align-self: flex-end;
+    transition-duration: 0.3s;
+
+}
+
+.gobuy-btn span {
+    font-size: 0.8rem;
+}
+
+
+.gobuy-btn:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+/*產品詳細 產品一覽共用*/
+
+
+
+/*水凝霜選擇 店舖一覽共用 tab*/
+
+.box-tabs {
+    border: none;
+}
+
+
+.nav-tabs .box-link {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+
+
+.box-tabs .nav-item.show .box-link,
+.box-tabs .box-link.active {
+
+    border-color: #ca797d;
+    color: #ca797d;
+}
+
+/*水凝霜選擇 店舖一覽共用 tab*/
+
+
+/*banner setting*/
+
+
+
+.topbn-inr {
+    height: 55vh;
+    width: 100%;
+
+}
+
+
+.bg-01 {
+
+    background: url(../images/banner/bn01.jpg) no-repeat scroll center center / cover;
+
+}
+
+
+.brand-top {
+
+    background: url(../images/banner/brand02.jpg) no-repeat scroll center center / cover;
+
+}
+
+
+
+.bg-02 {
+
+    background: url(../images/banner/bn02.jpg) no-repeat scroll center center / cover;
+
+}
+
+
+
+.bg-03 {
+
+    background: url(../images/banner/bn03.jpg) no-repeat scroll center center / cover;
+
+}
+
+
+
+.bg-04 {
+
+    background: url(../images/banner/bn04.jpg) no-repeat scroll center 75% / cover;
+  
+}
+
+
+
+
+/*TOP Video*/
+
+.video-wrap{
+    padding: 110px 0 0 0;
+}
+
+.brand-top-video {
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+}
+
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .video-wrap {
+        padding: 65px 0 0 0;
+    }
+
+    .brand-top-video {
+
+        height: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 468px) {
+
+
+    .brand-top-video {
+
+        height: 200px;
+    }
+
+}
+
+
+
+/*footer*/
+.contact-phone {
+    background: url(../images/icon-pphone.png) no-repeat;
+    width: 140px;
+    height: 140px;
+    background-size: contain;
+}
+
+
+.contact-phone,
+.contact-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 30px;
+    text-align: left;
+}
+
+.contact-text span {
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-icon {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 20px 0 0;
+}
+
+.contact-text .sp-pink a {
+    font-size: 1.8rem;
+    color: #ca797d;
+    font-weight: 500;
+}
+
+.ficon {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.copyright {
+    background: #e1e1e1;
+    padding: 20px 30px;
+
+}
+
+.copyright span,
+.copyright p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/*footer END*/

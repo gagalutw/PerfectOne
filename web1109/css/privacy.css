@@ -1,0 +1,32 @@
+/* NAV */
+
+.header-menu-1, .header-menu-2 {
+
+    position: absolute;
+    
+    }
+
+
+
+.privacy-content{
+    text-align: justify;
+    line-height: 1.7;
+}
+
+
+.privacy-content dd{
+    display: table;
+    }
+
+.privacy-content dd span{
+display: table-cell;
+}
+
+
+.privacy-content dd p{
+margin:0;
+    }
+
+.font-bold{
+font-weight: 400;
+}

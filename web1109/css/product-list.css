@@ -1,0 +1,250 @@
+/*11/2 edit*/
+
+
+
+.p-nav ul {
+
+    box-shadow: none;
+}
+
+
+.anchor ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 15px;
+    transition-duration: 0.3s;
+    background: #e5e5e5;
+    border-radius: 0.5rem;
+}
+
+
+
+.p-nav ul a {
+    width: 100px;
+    height: 2rem;
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    line-height: 2rem;
+    border: none;
+  
+}
+
+/* 1109edit
+.anchor ul li::before,
+.anchor ul li:after{
+    transition-duration: 0.3s;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top:0;
+}
+
+
+.anchor ul li::before {
+    z-index: -1;
+    left: -25%;
+    border: 16px solid #e5e5e5;
+    border-left-color: transparent;
+}
+
+
+.anchor ul li:after {
+    left: 100%;
+    border:16px solid transparent;
+    border-left-color: #e5e5e5;
+} */
+
+
+
+.p-nav ul a:hover,
+.p-nav ul a:focus
+ {
+    color: #FFF;
+}
+
+.anchor ul li:hover{
+    background: pink;
+}
+
+.anchor ul li:hover::before
+{
+    border: 16px solid pink;
+    border-left-color: transparent;
+}
+
+
+.anchor ul li:hover::after
+{
+    border:16px solid transparent;
+    border-left-color: pink;
+}
+
+.item-title {
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-title::after,
+.step-line,
+.step-dot::before {
+    content: "................................................................................................................";
+    color: #e5e5e5;
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    line-height: 1px;
+}
+
+.step-dot::after {
+    margin-top: -30px;
+}
+
+
+.item-title::after {
+    margin-top: -25px;
+}
+
+
+.step-line {
+    overflow: hidden;
+    position: relative;
+    line-height: 100px;
+}
+
+
+
+.item-price-area img {
+    width: 150px;
+    height: auto;
+}
+
+.item-text {
+    width: 80%;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.item-text span {
+    display: block;
+}
+
+.step,
+.step-item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+}
+
+.step-arrow {
+    background: url(../images/steparrow.png) no-repeat 80px center;
+    width: 150px;
+    height: 75px;
+    background-size: contain;
+}
+
+.step-dot {
+    display: none;
+}
+
+.step-item span {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.step-item img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.step-p-box {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+
+.step-line-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .list-content {
+        margin-top: -10px;
+    }
+
+
+    .step-dot {
+        display: block;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+    .step-line-box {
+        display: none;
+    }
+
+    .step {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0 -6px 0;
+    }
+
+    .step-item {
+        margin: 10px 0;
+    }
+
+    .step p {
+        margin: 0 20px 0 0;
+
+    }
+
+    .step img:first-child {
+        display: none;
+    }
+
+    .step img:last-child {
+        width: 60px;
+        height: auto;
+    }
+
+    /* 
+stepd.png
+.step-block:nth-last-child(2) .step img {
+    width: 30px;
+    height: auto;
+} */
+
+}
+
+
+@media screen and (max-width: 468px) {
+
+    .item-text {
+        font-size: 0.9rem;
+    }
+
+
+
+    .step-item {
+
+        width: 130px;
+    }
+
+    .step-p-box {
+        max-width: 100%;
+
+    }
+
+}

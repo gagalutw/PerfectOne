@@ -1,0 +1,384 @@
+.jquery-back-to-top-theme-fawesome i {
+    display: inline-block;
+    margin: 8px 0 0 0;
+}
+
+
+
+
+
+@media screen and (min-width:1680px) {
+
+    .bn-img {
+
+        height: 500px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width:1500px) {
+
+    .bg-01,
+    .brand-top {
+        background-position: center 43%;
+
+    }
+
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .index-product.slick-slider .slick-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-01,
+    .brand-top {
+        background-position: center 5%;
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1200px) {
+    .index-btn {
+        max-width: 400px;
+    }
+
+
+    .bg-01,
+    .brand-top {
+        background-position: center 45px;
+
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 769px) {
+    .yshow {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-wrap {
+        margin: 65px 0 0 0;
+    }
+
+    .swiper-slide img {
+        width: 160%;
+    }
+
+
+    .header-menu-2 {
+        display: none;
+    }
+
+    .contact-phone {
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-text span {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+
+    .contact-text .sp-pink a {
+        font-size: 1.2rem;
+        color: #ca797d;
+        font-weight: 500;
+    }
+
+    .ficon {
+        font-size: 2rem;
+    }
+
+
+    .contact-phone,
+    .contact-text {
+        padding: 10px;
+    }
+
+    .header-menu-2,
+    .noshow {
+        display: none;
+    }
+
+    .banner-area {
+        padding-top: 65px;
+    }
+
+
+    .video-wrap {
+        padding: 65px 0 0 0;
+    }
+
+    .brand-top-video {
+
+        height: 400px;
+    }
+
+    .gobuy-btn {
+        text-align: right;
+    }
+
+
+    .menu-icon {
+        font-size: 1.5rem;
+    }
+
+
+
+    .store-content table tr {
+        display: grid;
+
+    }
+
+    .dev {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu-right {
+        padding: 0;
+    }
+
+    .menu-brand img {
+        width: 200px;
+        height: auto;
+    }
+
+
+    .bg-01 {
+
+        background: url(../images/banner/bn01m.jpg) no-repeat scroll center center / cover;
+
+    }
+
+
+    .bg-04 {
+
+        background: url(../images/banner/bn04m.jpg) no-repeat scroll center center / cover;
+
+    }
+
+    .brand-top {
+
+        background: url(../images/banner/brand02m.jpg) no-repeat scroll center center / cover;
+
+    }
+
+    .store-content table,
+    .only-text {
+        font-size: 0.9rem;
+    }
+
+
+    .detail-check li {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .index-btn {
+        margin-bottom: 10px;
+    }
+
+    .index-media .slick-slide,
+    .index-product .slick-slide {
+        width: 150px;
+    }
+
+
+
+    .product-slide .product-text p,
+    .media-slide p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .product-slide .product-text p {
+        padding-left: 10px;
+    }
+
+    .product-slide .product-text p:before {
+        left: -2px;
+    }
+
+    .product-text p:after,
+    .more:after {
+
+        font-size: 0.8rem;
+    }
+
+    .insta-rectangle {
+        width: 350px;
+    }
+
+    .ad-wrap {
+        display: none;
+    }
+
+    .insta-square {
+        width: 160px;
+    }
+
+    .menu-r-link {
+        margin-left: 5px;
+    }
+
+    .media-slide img,
+    .product-slide img {
+        width: 150px;
+
+    }
+
+
+    .detail-content {
+        padding: 0;
+        border: none;
+    }
+
+
+    .main-link {
+        padding: 10px;
+    }
+
+    .product-shop {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .qacard {
+        border: none;
+    }
+
+    .main-tabs {
+        border-bottom: 1px solid #ccc;
+    }
+
+
+    .QA-content h5 {
+        font-size: 1.1rem;
+    }
+
+
+    .award-text {
+        margin: 0 auto;
+        font-size: 0.85rem;
+        line-height: 1.6;
+        color: #999;
+    }
+
+    .tech-text {
+        margin: 10px auto;
+    }
+
+
+    .award {
+        margin-top: 20px;
+    }
+
+    .awards :nth-child(1).gold,
+    .awards :nth-child(2).gold {
+        height: 130px;
+    }
+
+    .gold {
+        width: 105px;
+        height: 85px;
+    }
+
+
+    .founder {
+        width: 150px;
+        height: 150px;
+    }
+
+    .brand-top-video {
+
+        height: 200px;
+    }
+
+    .choice-slide img {
+
+        width: 65%;
+    }
+
+    .howtouse-iframe {
+
+        height: 2200px;
+    }
+
+    .item-price-area img {
+        width: 120px;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+/****my page forot/1127****/
+
+div#window_area p.information {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 440px;
+}
+
+
+@media screen and (max-width:375px) {
+    .gold {
+        margin: 0 10px;
+    }
+
+
+    div#widow_area p.information, div#window_area #forgot {
+    
+        width: 100%;
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 340px) {
+    .menu-r-link {
+        margin: 0;
+    }
+
+    .menu-brand img {
+        width: 180px;
+        height: auto;
+    }
+
+    .howtouse-iframe {
+
+        height: 3000px;
+    }
+}
